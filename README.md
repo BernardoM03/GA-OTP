@@ -31,4 +31,8 @@ Scan `totp_qr_code.png` with Google Authenticator (or similar) to add the accoun
 python main.py -get-otp
 ```
 
+## Implementation
+
+I have gotten very familiar with Python as a language lately as a ULA for 162 and Python is incredibly well supported with libraries. Doing a bit of research showed me that python has libraries for both OTPs (pyopt) and QR codes (qrcode, reqs Pillow). This covered both the QR and OTP features needed, so Python was a no brainer here. 
+
 
